@@ -1,0 +1,93 @@
+/*CARDS*/
+
+
+.grid4{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin:3%;
+  padding-left:3.5%;
+}
+.card2{
+  height:18em;
+  width:18em;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius:16px;
+  overflow:hidden;
+}
+.card2-img{
+  height:6em;
+  width:18em;
+  padding:1em 2em;
+  position:Absolute;
+  top:0px;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.card2-descript{
+  background-color: #FAFAFC;
+  height:7em;
+  width:18em;
+  position:absolute;
+  bottom:0em;
+  transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 0.5em 1em;
+  text-align:center;
+}
+.card2:hover .card2-descript{
+  height:0em;
+  padding:0px 1em;
+}
+.card2:hover .card2-img{
+  height:18em;
+}
+.card2:hover{
+  background-color:white;
+}
+.card2:hover{
+  background-color:white;
+  cursor:pointer;
+}
+
+/*VEGETARIAN*/
+#intro h3{
+  font-size:35px;
+  padding:3%;
+  padding-bottom: 0;
+  letter-spacing: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+  padding-top: 1.5%;
+  width:34%;
+  text-align: center;
+  font-family: sans-serif;
+}
+/*VEGGIE MEALS*/
+.a{
+  background-image: url(media/shelf.jpg);
+}
+.b{
+  background-image: url(media/mache.jpeg);
+}
+.c{
+  background-image: url(media/fire.jpg);
+}
+.d{
+  background-image: url(media/pot.jpeg);
+}
+.e{
+  background-image: url(media/bf.jpg);
+}
+.f{
+  background-image: url(media/water.jpg);
+}
+.g{
+  background-image: url(media/pig.jpeg);
+}
+.h{
+  background-image: url(media/terr.jpg);
+}
